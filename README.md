@@ -8,3 +8,6 @@ There are 3 django projects.
 And 1 vue (quasar) project.
 We have used quasar, a css framework of vuejs 3.
 We have used django rest framework and for payment we have used Stripe.
+
+
+If downloading our project you should add some dependencies.
