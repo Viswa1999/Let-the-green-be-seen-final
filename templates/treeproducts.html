@@ -1,0 +1,32 @@
+{% extends 'payments/base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+    yes
+{% for product in products %}
+<div class="card" style="width: 18rem;">
+  <img src="{{product.product_image.url}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Uses</h5>
+    <p class="card-text">{{product.product_description}}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">{{product.product_name}}</li>
+    <li class="list-group-item">${{product.product_amount}}</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+
+
+{%endfor%}
+{%endblock content %}
+</body>
+</html>
