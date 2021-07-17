@@ -24,3 +24,5 @@ This is the folder where the vue codes are present.
 The code used here is option API.
 The UI design will be good for the vue as 
 the css framework is Quasar.
+
+Axios is used 
