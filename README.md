@@ -17,3 +17,10 @@ The first django project works with login and register integrated with vuejs (qu
 The second django project named new will handle the image uploading.
 The images will be received in the front end and posted to the backend.
 The user interface used is quasar.
+
+
+SRC Folder
+This is the folder where the vue codes are present.
+The code used here is option API.
+The UI design will be good for the vue as 
+the css framework is Quasar.
