@@ -27,3 +27,5 @@ the css framework is Quasar.
 
 Axios is used to connect the frontend and backend.
 With axios and django as API one can use the get,post,patch,delete and update.
+For uploading images quasar has template.
+Orelse one can use normal javascript and vue for uploading.
